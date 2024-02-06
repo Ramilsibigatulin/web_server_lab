@@ -8,7 +8,7 @@
 <body>
     <?php 
      echo'<h1>Hello, PHP</h1>'; 
-    $a = 10;
+    $a = 1;
     $b = 20;
     define('pi',3.14);
     $x = $a * pi;
