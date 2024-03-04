@@ -38,6 +38,19 @@
     echo "<h1>x = $unknown</h1></br>";
     echo "<h2>Оператор = $operator</h2></br>";
 
+
+
+
+
+
+    $arr = array('a' => 1, 'b' => 2, 'c' => 3);
+    $flipp_array = array_flip($arr);
+
+    print_r($flipp_array);
+    $arrayy = array('a' => 1, 'b' => 2, 'c' => 3);
+    $reversed_array = array_reverse($arrayy , true);
+
+    print_r($reversed_array);
     ?>
     
 </body>
