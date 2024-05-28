@@ -19,22 +19,3 @@
         }
     }
     if (!$pageFound) echo 'Страница не найдена';
-
-
-    // $pattern = '/(.*)/';
-    // preg_match($pattern, $route_URL, $matches);
-    //     if (!empty($matches)){
-    //         $pageFound = true;
-    //         $controller = new \src\Controllers\MainController;
-    //         $controller->main();
-    //     }
-    
-    //     $pattern = '/hello\/([a-z]+)/';
-    //     preg_match($pattern, $route, $matches);
-    //     if (!empty($matches)){
-    //         $pageFound = true;
-    //         $controller = new \src\Controllers\MainController;
-    //         $controller->sayHello($matches[1]);
-    //     }
-    // $user = new \src\Models\Users\User('Ivan');
-    // $article = new \src\Models\Articles\Article('new title', 'new text', $user);

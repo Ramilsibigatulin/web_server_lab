@@ -19,16 +19,10 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?=dirname($_SERVER['SCRIPT_NAME']);?>/articles">Articles<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled">Disabled</a>
+        <a class="nav-link" href="<?=dirname($_SERVER['SCRIPT_NAME']);?>/article/create">Create article</a>
       </li>
     </ul>
   </div>
@@ -36,5 +30,3 @@
     </header>
       <main>   
         <div class="container mt-3">
-
-        
